@@ -1,0 +1,19 @@
+<resources>
+    <!--BOTONES-->
+    <string name="app_name">AdminContactos</string>
+    <string name="nuevo">Nuevo Contacto</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="guardar">Guardar</string>
+    <string name="listar">Listar Contactos</string>
+    <string name="ver">Ver Contacto</string>
+
+
+    <!--CAMPO-->
+    <string name="id">ID:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="text_nombre">Ingrese Nombre</string>
+    <string name="correo">Correo:</string>
+    <string name="text_correo">Ingrese Correo</string>
+    <string name="telefono">Telefono:</string>
+    <string name="text_telefono">Ingrese telefono</string>
+</resources>

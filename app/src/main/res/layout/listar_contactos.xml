@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/maintable"
+        android:layout_margin="5dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+        >
+            <TextView
+                android:text="@string/id"
+                android:padding="3dip"
+                android:gravity="center"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="@string/nombre"
+                android:padding="3dip"
+                android:gravity="center"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:text="@string/correo"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:text="@string/telefono"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
